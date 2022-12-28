@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(107, 78, 225, 0.55),
+    rgba(53, 20, 183, 0.85)
+  );
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.box {
+  background: linear-gradient(230deg, rgb(161, 255, 255), rgb(4, 102, 102));
+  margin-top: 100px;
+  height: fit-content;
+  width: 50vw;
+  border: 1px solid black;
+  min-height: 500px;
+}
+
+.search {
+  position: relative;
+  top: 20px;
+  left: 200px;
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 10px 30px;
+  font-size: 1.1rem;
+}
+
+button {
+  margin-left: 10px;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  background-color: rgb(5, 161, 161);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+button:hover {
+  margin-left: 20px;
+  transform: scaleX(1);
+}
+
+hr {
+  width: 80%;
+  margin: 20px auto;
+  color: purple;
+  height: 5px;
+}
+
+.image {
+  height: 200px;
+  width: 200px;
+  padding-left: 1.3rem;
+  padding-top: 1.3rem;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+img {
+  height: 100%;
+  border: 3px solid rgba(113, 0, 113, 0.5);
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+img:hover {
+  border: 5px solid rgba(113, 0, 113, 0.7);
+}
+
+/* ------------------- */
+.details {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.details h2 {
+  padding: 10px;
+}
